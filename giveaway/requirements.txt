@@ -1,0 +1,11 @@
+Flask==2.1.2
+Flask_Bcrypt==1.0.1
+Flask_Login==0.6.1
+Flask_SQLAlchemy==2.5.1
+Flask_WTF==1.0.1
+pay_ir==0.1.2
+Pillow==9.1.0
+requests==2.25.1
+selenium==3.141.0
+WTForms==3.0.1
+XlsxWriter==3.0.3

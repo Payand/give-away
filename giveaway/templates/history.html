@@ -1,0 +1,37 @@
+{% extends 'main.html' %}
+
+
+{% block content %}
+
+{% for data  in history %}
+    <article class="media content-section">
+        <div class="media-body">
+        <div class="article-metadata">
+            <strong class="mr-2" >Method :  {{data.type}}</strong>
+            <small class="text-muted"> {{data.date_posted.strftime('%Y-%m-%d')}}</small>
+        
+        </div>
+        Link :<a  href="{{data.tag_mention_followers_urls}}" class="article-content">  {{data.tag_mention_followers_urls}}</a>
+        </div>
+    </article>
+
+{% endfor %}
+
+
+
+
+
+
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+

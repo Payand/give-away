@@ -1,0 +1,85 @@
+{% extends 'main.html' %}
+
+
+
+{% block content %}
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2" href="{{url_for('likers_plan')}}">1-Plan likers</a>
+        </div>
+        <p class="article-content">In this plan your giveaway is based on likes <br/> who have liked your post our your story</p>
+      </div>
+    </article>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2" href="{{url_for('followers_plan')}}">2-Plan followers</a>
+        
+        </div>
+      
+        <p class="article-content">In this plan your giveaway is based on followers <br/> who have followed your page</p>
+      </div>
+    </article>
+    <article class="media content-section">
+        <div class="media-body">
+        <div class="article-metadata">
+            <a class="mr-2" href="{{url_for('comments_plan')}}">3-Plan Commnets</a>
+           
+        </div>
+            <p class="article-content">In this plan your giveaway is based on followers<br/> who have commented on your post </p>
+        </div>
+    </article>
+    <article class="media content-section">
+        <div class="media-body">
+          <div class="article-metadata">
+            <a class="mr-2" href="{{url_for('tags_plan')}}">4-Plan Tags</a>
+           
+          </div>
+          
+          <p class="article-content">In this plan your giveaway is based on followers <br/> who have tagged others on your comments section</p>
+        </div>
+      </article>
+      <article class="media content-section">
+        <div class="media-body">
+          <div class="article-metadata">
+            <a class="mr-2" href="{{url_for('combnation_plan')}}">5-Plan Combine</a>
+           
+          </div>
+        
+          <p class="article-content">In this plan your giveaway is based on followers <br/> who have tagged  and commented on your comments section</p>
+        </div>
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

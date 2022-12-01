@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+
+
+
+   ----------------------------------------------------------------------------------------------------------------------
+    How to set up
+   ----------------------------------------------------------------------------------------------------------------------
+
+
+    1. Inside your terminal go to "Giveaway-webapp/giveaway" directory , then type "pip install -r requirement.txt".
+
+
+    2. In "giveaway" directory inside "__init__.py" file, in line "app.config["CLIENT_CSV"]" section you should designate your 
+      static route from your local machine.
+    
+       *example: app.config["CLIENT_CSV"] ='C:/Users/"yourname"/Desktop/Giveaway-webapp-final/giveaway/static/cxcel_file'
+    
+    3. In "config.py" directory declare your 'USERNAME' and 'PASSWORD'.
+
+    4. Go back one directory to "Giveaway-webapp"		
+
+    5. On your terminal run "python run.py".
+
+  -----------------------------------------------------------------------------------------------------------------------
